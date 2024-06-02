@@ -1,0 +1,69 @@
+.dashboard-container {
+  display: flex;
+  flex-flow: column wrap;
+  background-color: #1f1e37;
+  color: white;
+  width: 15rem;
+}
+.dashboard-user {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.4em;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  padding: 1rem;
+  font-weight: bold;
+}
+.dashboard-titles {
+  color: rgb(235, 229, 229);
+  font-size: 14px;
+  font-weight: bold;
+}
+.dashboard-block {
+  display: flex;
+  margin-left: 1rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+.dashboard-user-img {
+  border-radius: 6px;
+  border: 1px solid #1f1ea7;
+  margin-right: 5px;
+}
+.dashboard-items {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.dashboard-link {
+  color: gainsboro;
+  font-size: 13px;
+  padding: 0.2rem 2rem 0.2rem;
+}
+.dashboard-link:hover,
+.dashboard-titles:hover {
+  cursor: pointer;
+  color: gray;
+}
+.icon-and-title {
+  display: flex;
+  width: 70%;
+  height: 2rem;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.2rem;
+}
+.chevron {
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+}
+.chevron:hover {
+  cursor: pointer;
+  color: gray;
+}
+.dashboard-active-link {
+  background-color: hsl(224, 98%, 58%);
+  width: 100%;
+  color:#fff;
+  font-weight: 600;
+}

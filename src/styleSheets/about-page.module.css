@@ -1,0 +1,33 @@
+.about-page{
+    background-color: #fff;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  color: black;
+}
+header {
+  color: #fff;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+h1 {
+  color: black !important;
+}
+.container p span{
+    font-weight: bold;
+    display: block;
+}
+
+.container>p {
+  margin-left: 2rem;
+  color: #595959;
+}
+.end em{
+    color:black;
+    margin:0.4rem;
+    display: block;
+}

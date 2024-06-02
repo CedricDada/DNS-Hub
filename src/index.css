@@ -1,0 +1,51 @@
+:root {
+ 
+  --clr-myblue: hsl(224, 98%, 58%);
+  --clr-primary-2: hsl(205, 77%, 27%);
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+#root{
+  height:100vh;
+}
+
+.FaBars {
+  font-size: 3rem;
+  color: rgb(62, 62, 124);
+}
+.FaBars:hover {
+  font-size: 4rem;
+}
+.sidebar-toggle {
+  background-color: inherit;
+  border: none;
+}
+.sidebar {
+  height: 100vh;
+}
+body {
+  margin: 0;
+  height: 100%;
+  min-height: 100vh;
+}
+#account{
+  flex:1;
+  display: flex;
+  gap: 3rem;
+  height: auto;
+}
+.mid{
+  flex:1;
+  margin-top: 6rem;
+}
+.main{
+  display:flex;
+  flex-flow: column nowrap;
+  height:100%;
+}
+
